@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology</title>
+    
+    <link rel="stylesheet" href="./input.css">
+
+</head>
+<body>
+    <h1 align="center">This is input from user using form Tag and Table Tag </h1>
+    <div class="container">
+        <table align="center" class="table">
+            <form>
+                <tr>
+                    <td>
+                        <label for="name">
+                            Name
+                        </label>
+                    </td>
+                    <td><input type="text" id="name" placeholder="Enter your name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="FatherName">
+                           Father Name
+                        </label>
+                    </td>
+                    <td><input type="text" id="FatherName" placeholder="Enter your father name" />
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="email">
+                            Email
+                        </label>
+                    </td>
+                    <td><input type="email" id="email" placeholder="Enter your email" />
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="Phone">
+                            Phone No :
+                        </label>
+                    </td>
+                    <td><input type="number" id="phone" placeholder="Enter your Phone" />
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="gender">
+                            Select your gender:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="Male" />Male
+                        <input type="radio" name="gender" id="gender" value="FeMale" />Female
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>  <label for="birthday">Date of Birth:</label>  </td>
+                    <td> <input type="date" id="birthday" name="birthday"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="profilePic">Upload your photo: </label> </td>
+                    <td>  <input type="file" id="myFile" name="filename"> </td>
+                </tr>
+                <tr>
+                    <td>  <label for="pass">Type your Password: </label> </td>
+                    <td>  <input type="password" id="pass" name="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td>  <label for="Qualification">your Qualification: </label> </td>
+                    <td>  <input type="text" id="Qualification"  placeholder="Education Qualification"></td>
+                </tr>
+                <tr>
+                    <td>  <label for="nationality">Nationality: </label> </td>
+                    <td> 
+                        <select name="nationality" id="nationality">
+                            <option value="India">India</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="China">China</option>
+                            <option value="saudi">Saudi</option>
+                       </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>  <label for="Cstatus">Covid Status: </label> </td>
+                    <td> 
+                        <select name="Cstatus" id="Cstatus">
+                            <option value="negative">Negative</option>
+                            <option value="positive">Positive</option>  
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="foption">Select form action </label> </td>
+                    <td>
+                        <input class="Button" type="reset" id="foption1" value="Reset"> 
+                        <input class="Button" type="submit" id="foption2"value="Submit"> 
+                    </td>
+                </tr>
+            </form>
+            
+        </table>
+        <span>This is made by raky with love</span>
+    </div>
+
+</body>
+</html>

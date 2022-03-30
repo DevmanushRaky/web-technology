@@ -1,0 +1,59 @@
+body{
+    font-size: 20px;
+    color: #222;
+    background: #f8f8f8;
+    font-weight: 400;
+}
+
+
+.container {
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px; 
+}
+
+.table{
+ padding :20px;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
+
+h1{
+    font-family: "Maven Pro",sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: 50000;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.Button {
+    margin: 15px;
+    padding: 8px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .Button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+td {
+    padding: 5px;
+   
+}
