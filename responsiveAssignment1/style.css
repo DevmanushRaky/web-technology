@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: white;
+    box-sizing:border-box;
+}
+
+h1,h3{
+    margin: 10px;
+    text-align: center;
+}
+
+.marquee{
+    margin: 10px;
+}
+
+.container{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    border: 0px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+}
+.content{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+@media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+    }
+}
+
+.card{
+    margin: 20px;
+    border: 0px;
+    width: 450px;
+    height: 330px;
+}
+/* department links */
+.department-links{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgba(101, 98, 98, 0.555);
+}
+.department-links:hover{
+    color:rgb(26, 56, 226);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+}
+
+/* gallery */
+.college-gallery{
+    position: relative;  
+}
+.video{
+    display: block;
+  width: 450px;
+  height: 300;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .college-gallery:hover .overlay {
+    opacity: 1;
+  }
+
+  /* college directer */
+.college-directer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-directer{
+    margin: 20px;
+    text-align: center;
+}
+
+/* contat us  */
+.contact-us{
+    text-align: center;
+    margin-top: 55px;
+}
+.creater{
+    padding: 15px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+
+

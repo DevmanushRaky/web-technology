@@ -1,18 +1,9 @@
-# creating a form using limited tags of html  (table tag and form tag)
+# Solution of Assignment using basic and simple html and css
 
+this is created with the help of limited tag of HTML and limited property of CSS. it is very simple and easy design. 
 
-# without css
-<img
-src="../Images/inputForm1.png"
-raw=true
-alt= "Input form without css"
-style=“margin-right: 10px;”
-/>
+# Screenshot
+<p align="center">
+  <img src="https://github.com/DevmanushRaky/web-technology/blob/master/Images/AssignmentImage.png?raw=true" width="900" height="550">
+</p>
 
-# with css
-<img
-src="../Images/inputForm.png"
-raw=true
-alt="Input form with css”
-style=“margin-right: 10px;”
-/>

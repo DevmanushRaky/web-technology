@@ -2,17 +2,11 @@
 
 
 # without css
-<img
-src="../Images/inputForm1.png"
-raw=true
-alt= "Input form without css"
-style=“margin-right: 10px;”
-/>
+<p align="center">
+  <img src="https://github.com/DevmanushRaky/web-technology/blob/master/Images/inputForm1.PNG?raw=true" width="900" height="550">
+</p>
 
 # with css
-<img
-src="../Images/inputForm.png"
-raw=true
-alt="Input form with css”
-style=“margin-right: 10px;”
-/>
+<p align="center">
+  <img src="https://github.com/DevmanushRaky/web-technology/blob/master/Images/inputForm.PNG?raw=true" width="900" height="550">
+</p>

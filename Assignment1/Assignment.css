@@ -1,0 +1,33 @@
+.image-1 {
+    background-image: url("./collegeImage.jpg");
+    height:250px;
+    width: 350px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,th,a{
+   font-family: sans-serif;
+}
+a{
+   text-decoration: none;
+}
+/* unvisited link */
+a:link {
+color: rgb(15, 94, 222);
+}
+
+/* visited link */
+a:visited {
+color: rgb(74, 32, 228);
+}
+
+/* mouse over link */
+a:hover {
+color: rgb(131, 120, 126);
+}
+
+/* selected link */
+a:active {
+color: rgb(176, 207, 36);
+}     
