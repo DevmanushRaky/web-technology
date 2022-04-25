@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Technology</title>
-    
+    <script src="./input.js" ></script>
     <link rel="stylesheet" href="./input.css">
 
 </head>
@@ -13,14 +13,14 @@
     <h1 align="center">This is input from user using form Tag and Table Tag </h1>
     <div class="container">
         <table align="center" class="table">
-            <form>
+            <form method="" action="" name="Rform" onsubmit="return validation()" >
                 <tr>
                     <td>
                         <label for="name">
                             Name
                         </label>
                     </td>
-                    <td><input type="text" id="name" placeholder="Enter your name" />
+                    <td><input type="text" id="name" placeholder="Enter your name"  autocomplete="off"/>
                     </td>
                 </tr>
                 <tr>
@@ -29,7 +29,7 @@
                            Father Name
                         </label>
                     </td>
-                    <td><input type="text" id="FatherName" placeholder="Enter your father name" />
+                    <td><input type="text" id="FatherName" placeholder="Enter your father name" autocomplete="off"/>
                     </td>
                 </tr>
     
@@ -38,7 +38,7 @@
                             Email
                         </label>
                     </td>
-                    <td><input type="email" id="email" placeholder="Enter your email" />
+                    <td><input type="email" id="email" placeholder="Enter your email" autocomplete="off" />
                     </td>
                 </tr>
     
@@ -47,7 +47,7 @@
                             Phone No :
                         </label>
                     </td>
-                    <td><input type="number" id="phone" placeholder="Enter your Phone" />
+                    <td><input type="tel" id="phone" placeholder="Enter your Phone" autocomplete="off"/>
                     </td>
                 </tr>
     
@@ -57,8 +57,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="radio" name="gender" id="gender" value="Male" />Male
-                        <input type="radio" name="gender" id="gender" value="FeMale" />Female
+                        <input type="radio" name="gender" id="mgender" value="Male" />Male
+                        <input type="radio" name="gender" id="fgender" value="FeMale" />Female
                     </td>
                 </tr>
     
@@ -72,16 +72,26 @@
                 </tr>
                 <tr>
                     <td>  <label for="pass">Type your Password: </label> </td>
-                    <td>  <input type="password" id="pass" name="password" placeholder="Enter your password"></td>
+                    <td>  <input type="password" id="pass" name="password" placeholder="Enter your password" autocomplete="off"></td>
                 </tr>
                 <tr>
                     <td>  <label for="Qualification">your Qualification: </label> </td>
-                    <td>  <input type="text" id="Qualification"  placeholder="Education Qualification"></td>
+                    <td>
+                        <input type="checkbox" id="highschool" name="High School" value="highschool">
+                       <small><label for="highschool">HighSchool</label></small> 
+                     
+                        <input type="checkbox" id="Graduation" name="Graduation" value="Graduation">
+                       <small><label for="Graduation">Graduation</label></small> 
+                     
+                        <input type="checkbox" id="master-degree" name="master-degree" value="m">
+                       <small><label for="master-degree">Master Degree</label></small> 
+                    </td>
                 </tr>
                 <tr>
                     <td>  <label for="nationality">Nationality: </label> </td>
                     <td> 
                         <select name="nationality" id="nationality">
+                            <option value="Select-Region">Select-Region</option>
                             <option value="India">India</option>
                             <option value="Pakistan">Pakistan</option>
                             <option value="China">China</option>
@@ -103,7 +113,7 @@
                     <td> <label for="foption">Select form action </label> </td>
                     <td>
                         <input class="Button" type="reset" id="foption1" value="Reset"> 
-                        <input class="Button" type="submit" id="foption2"value="Submit"> 
+                        <input class="Button" type="submit" id="foption2"value="Submit" /> 
                     </td>
                 </tr>
             </form>
